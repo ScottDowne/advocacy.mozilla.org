@@ -687,6 +687,7 @@
 .info-page .iconlist-container .iconlist-item {
   margin: 45px 0;
 }
+<<<<<<< b65850a9dcb0103d8bed0be27d2c45c510aa2d08
 @media screen and (max-width: 767px) {
   .info-page .iconlist-container .iconlist-item img {
     margin-bottom: 20px;
@@ -706,6 +707,8 @@
     margin-right: 54px;
   }
 }
+=======
+>>>>>>> fixes for flexbox and safari
 .info-page .iconlist-container .iconlist-item .content-container {
   width: 100%;
 }
@@ -853,6 +856,9 @@
 .fellows-page .fellow-block .fellow-info-container h2 {
   color: #804A80;
   margin: 0;
+}
+.fellows-page .fellow-block .fellow-info-container .fellow-info {
+  width: calc(100% - 235px);
 }
 .fellows-page .fellow-block .fellow-info-container .fellow-info {
   width: calc(100% - 235px);
