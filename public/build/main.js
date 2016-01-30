@@ -24934,6 +24934,7 @@
 	          React.createElement(
 	            Link,
 	            { to: '/' },
+<<<<<<< c48b2d93529bef051fecd272b36166daf98ba54f
 <<<<<<< 0453eb5fece168ad4308de215765b6c54265bb55
 	            React.createElement(
 	              'div',
@@ -24982,8 +24983,25 @@
 	          )
 	        )
 =======
+=======
+<<<<<<< ceaef3b68e95a182bb4609347c3bc61dee817116
+>>>>>>> more feedback fixes, this time home page, and header logo
 	            React.createElement(ImageTag, { width: this.props.width, height: this.props.height, src1x: logoImage,
 	              alt: 'advocacy logo' })
+=======
+	            React.createElement(
+	              'div',
+	              { className: 'logo-fade' },
+	              React.createElement(ImageTag, { src1x: '/assets/logo-mozilla.svg',
+	                alt: 'advocacy logo' })
+	            ),
+	            React.createElement(
+	              'div',
+	              null,
+	              React.createElement(ImageTag, { src1x: logoImage,
+	                alt: 'advocacy logo' })
+	            )
+>>>>>>> more feedback fixes, this time home page, and header logo
 	          )
 	        ),
 <<<<<<< 982e0162ca52a67a43d398df5cb4fa43b8e7b5de
