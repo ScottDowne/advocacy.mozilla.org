@@ -24875,58 +24875,11 @@
 	var Link = Router.Link;
 	var ImageTag = __webpack_require__(220);
 
-	var Menu = React.createClass({
-	  displayName: 'Menu',
-
-	  render: function render() {
-	    return React.createElement(
-	      'span',
-	      null,
-	      React.createElement('div', { className: 'header-overlay' }),
-	      React.createElement(
-	        'div',
-	        { className: 'nav-items' },
-	        React.createElement(
-	          'div',
-	          { className: 'nav-link-container home-link' },
-	          React.createElement(
-	            Link,
-	            { to: '/' },
-	            'Home'
-	          )
-	        ),
-	        React.createElement(
-	          'div',
-	          { className: 'nav-link-container fellows-link' },
-	          React.createElement(
-	            Link,
-	            { to: '/open-web-fellows/' },
-	            'Open Web Fellows'
-	          )
-	        ),
-	        React.createElement(
-	          'div',
-	          { className: 'nav-link-container blog-link' },
-	          React.createElement(
-	            'a',
-	            { href: 'https://blog.mozilla.org/netpolicy/' },
-	            'Blog'
-	          )
-	        )
-	      )
-	    );
-	  }
-	});
-
 	module.exports = React.createClass({
 	  displayName: 'exports',
 
 	  render: function render() {
 	    var logoImage = this.props.logoImage || "/assets/logo-advocacy.svg";
-	    var menu = React.createElement(Menu, null);
-	    if (this.props.disabledMenu) {
-	      menu = '';
-	    }
 	    return React.createElement(
 	      'div',
 	      { className: 'header' },
@@ -24939,9 +24892,6 @@
 	          React.createElement(
 	            Link,
 	            { to: '/' },
-<<<<<<< f87ae257769556f6b68559699e8feb2dc91016d7
-<<<<<<< c48b2d93529bef051fecd272b36166daf98ba54f
-<<<<<<< 0453eb5fece168ad4308de215765b6c54265bb55
 	            React.createElement(
 	              'div',
 	              { className: 'logo-fade' },
@@ -24988,70 +24938,6 @@
 	            )
 	          )
 	        )
-=======
-=======
-<<<<<<< ceaef3b68e95a182bb4609347c3bc61dee817116
->>>>>>> more feedback fixes, this time home page, and header logo
-	            React.createElement(ImageTag, { width: this.props.width, height: this.props.height, src1x: logoImage,
-	              alt: 'advocacy logo' })
-=======
-=======
->>>>>>> mobile work for overview page and header
-	            React.createElement(
-	              'div',
-	              { className: 'logo-fade' },
-	              React.createElement(ImageTag, { src1x: '/assets/logo-mozilla.svg',
-	                alt: 'advocacy logo' })
-	            ),
-	            React.createElement(
-	              'div',
-	              null,
-	              React.createElement(ImageTag, { src1x: logoImage,
-	                alt: 'advocacy logo' })
-	            )
-	          )
-	        ),
-	        menu
-<<<<<<< f87ae257769556f6b68559699e8feb2dc91016d7
-<<<<<<< aa0e1f0e92be3ce8340f3bf40cfa956b287a55e8
->>>>>>> Fixes
-=======
-=======
-	        React.createElement(
-	          'div',
-	          { className: 'nav-items' },
-	          React.createElement(
-	            'div',
-	            { className: 'nav-link-container home-link' },
-	            React.createElement(
-	              Link,
-	              { to: '/' },
-	              'Home'
-	            )
-	          ),
-	          React.createElement(
-	            'div',
-	            { className: 'nav-link-container fellows-link' },
-	            React.createElement(
-	              Link,
-	              { to: '/open-web-fellows/' },
-	              'Open Web Fellows'
-	            )
-	          ),
-	          React.createElement(
-	            'div',
-	            { className: 'nav-link-container blog-link' },
-	            React.createElement(
-	              'a',
-	              { href: 'https://blog.mozilla.org/netpolicy/' },
-	              'Blog'
-	            )
-	          )
-	        )
->>>>>>> updating some links
->>>>>>> updating some links
-=======
->>>>>>> mobile work for overview page and header
 	      )
 	    );
 	  }
@@ -25175,10 +25061,6 @@
 	        { className: 'hero-unit', style: {
 	            backgroundImage: 'url(' + this.state.image + ')'
 	          } },
-<<<<<<< f87ae257769556f6b68559699e8feb2dc91016d7
-<<<<<<< aa0e1f0e92be3ce8340f3bf40cfa956b287a55e8
-=======
->>>>>>> mobile work for overview page and header
 	        React.createElement(
 	          'div',
 	          { className: 'hero-unit-desktop' },
@@ -25188,11 +25070,6 @@
 	      React.createElement(
 	        'div',
 	        { className: 'hero-unit-mobile center-align' },
-<<<<<<< f87ae257769556f6b68559699e8feb2dc91016d7
-=======
->>>>>>> updating some links
-=======
->>>>>>> mobile work for overview page and header
 	        this.props.children
 	      )
 	    );
@@ -25505,85 +25382,7 @@
 	/* REACT HOT LOADER */ }).call(this); if (false) { (function () { module.hot.dispose(function (data) { data.makeHot = module.makeHot; }); if (module.exports && module.makeHot) { var makeExportsHot = require("/Users/ali/projects/advocacy.mozilla.org/node_modules/react-hot-loader/makeExportsHot.js"), foundReactClasses = false; if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "overview.jsx" + ": " + err.message); } }); } } })(); }
 
 /***/ },
-<<<<<<< f87ae257769556f6b68559699e8feb2dc91016d7
-<<<<<<< aa0e1f0e92be3ce8340f3bf40cfa956b287a55e8
-<<<<<<< 0453eb5fece168ad4308de215765b6c54265bb55
 /* 224 */
-=======
-=======
-<<<<<<< 982e0162ca52a67a43d398df5cb4fa43b8e7b5de
->>>>>>> updating some links
-/* 222 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/Users/ali/projects/advocacy.mozilla.org/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/Users/ali/projects/advocacy.mozilla.org/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } (function () {
-
-	'use strict';
-
-	var React = __webpack_require__(1);
-
-	module.exports = React.createClass({
-	  displayName: 'exports',
-
-	  calculateDensity: function calculateDensity() {
-	    var ratio;
-
-	    if (typeof window !== 'undefined' && window.devicePixelRatio > 1.5) {
-	      ratio = 2;
-	    } else {
-	      ratio = 1;
-	    }
-
-	    return ratio;
-	  },
-
-	  getInitialState: function getInitialState() {
-	    var image = this.props.image;
-	    if (this.calculateDensity() === 2) {
-	      image = this.props.image2x || this.props.image;
-	    }
-	    return {
-	      image: image
-	    };
-	  },
-
-	  propTypes: {
-	    'image': React.PropTypes.string.isRequired
-	  },
-
-	  render: function render() {
-	    var className = "hero-unit-container";
-	    if (this.props.className) {
-	      className += " " + this.props.className;
-	    }
-	    return React.createElement(
-	      'div',
-	      { className: className },
-	      React.createElement(
-	        'div',
-	        { className: 'hero-unit', style: {
-	            backgroundImage: 'url(' + this.state.image + ')'
-	          } },
-	        this.props.children
-	      )
-	    );
-	  }
-	});
-
-	/* REACT HOT LOADER */ }).call(this); if (false) { (function () { module.hot.dispose(function (data) { data.makeHot = module.makeHot; }); if (module.exports && module.makeHot) { var makeExportsHot = require("/Users/ali/projects/advocacy.mozilla.org/node_modules/react-hot-loader/makeExportsHot.js"), foundReactClasses = false; if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "hero-unit.jsx" + ": " + err.message); } }); } } })(); }
-
-/***/ },
-/* 223 */
-<<<<<<< aa0e1f0e92be3ce8340f3bf40cfa956b287a55e8
->>>>>>> Fixes
-=======
-=======
-/* 224 */
->>>>>>> updating some links
->>>>>>> updating some links
-=======
-/* 224 */
->>>>>>> mobile work for overview page and header
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/Users/ali/projects/advocacy.mozilla.org/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/Users/ali/projects/advocacy.mozilla.org/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } (function () {
@@ -25717,54 +25516,6 @@
 	/* REACT HOT LOADER */ }).call(this); if (false) { (function () { module.hot.dispose(function (data) { data.makeHot = module.makeHot; }); if (module.exports && module.makeHot) { var makeExportsHot = require("/Users/ali/projects/advocacy.mozilla.org/node_modules/react-hot-loader/makeExportsHot.js"), foundReactClasses = false; if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "fellows-header.jsx" + ": " + err.message); } }); } } })(); }
 
 /***/ },
-<<<<<<< f87ae257769556f6b68559699e8feb2dc91016d7
-<<<<<<< aa0e1f0e92be3ce8340f3bf40cfa956b287a55e8
-<<<<<<< 0453eb5fece168ad4308de215765b6c54265bb55
-=======
-=======
-<<<<<<< 982e0162ca52a67a43d398df5cb4fa43b8e7b5de
->>>>>>> updating some links
-/* 225 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/Users/ali/projects/advocacy.mozilla.org/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/Users/ali/projects/advocacy.mozilla.org/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } (function () {
-
-	'use strict';
-
-	var React = __webpack_require__(1);
-	var HeroUnit = __webpack_require__(222);
-
-	module.exports = React.createClass({
-	  displayName: 'exports',
-
-	  render: function render() {
-	    var className = "content-container";
-	    if (this.props.className) {
-	      className += " " + this.props.className;
-	    }
-	    return React.createElement(
-	      'div',
-	      { className: className },
-	      React.createElement(
-	        'div',
-	        { className: 'content' },
-	        this.props.children
-	      )
-	    );
-	  }
-	});
-
-	/* REACT HOT LOADER */ }).call(this); if (false) { (function () { module.hot.dispose(function (data) { data.makeHot = module.makeHot; }); if (module.exports && module.makeHot) { var makeExportsHot = require("/Users/ali/projects/advocacy.mozilla.org/node_modules/react-hot-loader/makeExportsHot.js"), foundReactClasses = false; if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "content-container.jsx" + ": " + err.message); } }); } } })(); }
-
-/***/ },
-<<<<<<< aa0e1f0e92be3ce8340f3bf40cfa956b287a55e8
->>>>>>> Fixes
-=======
-=======
->>>>>>> updating some links
->>>>>>> updating some links
-=======
->>>>>>> mobile work for overview page and header
 /* 226 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -25990,10 +25741,7 @@
 	var Apply = __webpack_require__(224);
 	var FellowsHeader = __webpack_require__(225);
 	var ContentContainer = __webpack_require__(222);
-<<<<<<< aa0e1f0e92be3ce8340f3bf40cfa956b287a55e8
 	var ImageTag = __webpack_require__(220);
-=======
->>>>>>> updating some links
 
 	var IconListContainer = React.createClass({
 	  displayName: 'IconListContainer',
@@ -26626,10 +26374,10 @@
 
 	var React = __webpack_require__(1);
 	var Footer = __webpack_require__(218);
-	var Header = __webpack_require__(219);
 	var HeroUnit = __webpack_require__(221);
 	var Video = __webpack_require__(229);
 	var ContentContainer = __webpack_require__(222);
+	var ImageTag = __webpack_require__(220);
 
 	module.exports = React.createClass({
 	  displayName: 'exports',
@@ -26638,7 +26386,15 @@
 	    return React.createElement(
 	      'div',
 	      { className: 'encrypt' },
-	      React.createElement(Header, { disabledMenu: true, height: '30', width: '105', logoImage: '/assets/mozilla-wordmark.svg' }),
+	      React.createElement(
+	        'div',
+	        { className: 'header' },
+	        React.createElement(
+	          'div',
+	          { className: 'header-content' },
+	          React.createElement(ImageTag, { height: '30', width: '105', src1x: '/assets/logo-mozilla.svg', alt: 'Mozilla logo' })
+	        )
+	      ),
 	      React.createElement(
 	        HeroUnit,
 	        null,

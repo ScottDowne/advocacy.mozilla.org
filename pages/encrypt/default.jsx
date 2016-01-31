@@ -1,15 +1,19 @@
 var React = require('react');
 var Footer = require('../../components/footer.jsx');
-var Header = require('../../components/header.jsx');
 var HeroUnit = require('../../components/hero-unit.jsx');
 var Video = require('../../components/video.jsx');
 var ContentContainer = require('../../components/content-container.jsx');
+var ImageTag = require('../../components/imagetag.jsx');
 
 module.exports = React.createClass({
   render: function() {
     return (
       <div className="encrypt">
-        <Header disabledMenu={true} height="30" width="105" logoImage={'/assets/mozilla-wordmark.svg'}></Header>
+        <div className="header">
+          <div className="header-content">
+            <ImageTag height="30" width="105" src1x="/assets/logo-mozilla.svg" alt="Mozilla logo"/>
+          </div>
+          </div>
         <HeroUnit>
           <div className="encryptText">
             <h1>hehe</h1>

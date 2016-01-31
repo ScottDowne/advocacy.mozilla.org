@@ -180,14 +180,6 @@
   .fellows-header .fellow-header-overlay {
     opacity: 1;
   }
-<<<<<<< f87ae257769556f6b68559699e8feb2dc91016d7
-=======
-  .fellows-header.sticky {
-    position: absolute;
-    top: 260px;
-    z-index: 1;
-  }
->>>>>>> mobile work for overview page and header
 }
 .fellows-page .fellows-header .nav-items .nav-link-container.current-fellows-link {
   opacity: 1;
@@ -420,72 +412,6 @@
     padding: 25px;
     box-sizing: border-box;
   }
-<<<<<<< f87ae257769556f6b68559699e8feb2dc91016d7
-}
-.content-container.grey {
-  background-color: #EFEFEF;
-}
-@media screen and (min-width: 768px) {
-  .content-container.grey.slant {
-    background-color: #FFFFFF;
-  }
-  .content-container.grey.slant:before {
-    content: '';
-    position: absolute;
-    background-color: #EFEFEF;
-    -webkit-transform: skewY(-5deg);
-            transform: skewY(-5deg);
-    width: 100%;
-    height: 100%;
-  }
-  .content-container.grey.slant.flat-bottom.slant:before,
-  .content-container.grey.slant.flat-top.slant:before {
-    height: calc(100% - 85px);
-  }
-  .content-container.grey.slant.flat-bottom.slant:after,
-  .content-container.grey.slant.flat-top.slant:after {
-    content: '';
-    position: absolute;
-    background-color: #EFEFEF;
-    width: 100%;
-  }
-  .content-container.grey.slant.flat-bottom.slant:after {
-    bottom: 0px;
-    height: calc(100% - 85px);
-  }
-  .content-container.grey.slant.flat-top.slant:before {
-    top: 85px;
-  }
-  .content-container.grey.slant.flat-top.slant:after {
-    top: 0px;
-    height: calc(100% - 100px);
-  }
-}
-<<<<<<< 0453eb5fece168ad4308de215765b6c54265bb55
-.home-page .home-page-hero-unit .hero-unit {
-  background-color: #009DAA;
-}
-.home-page .home-page-hero-unit .hero-unit h2 {
-  color: #FFFFFF;
-  margin: 10px auto;
-=======
-.content-container.grey.slant:before {
-  content: '';
-  position: absolute;
-  background-color: #EFEFEF;
-  -webkit-transform: skewY(-5deg);
-          transform: skewY(-5deg);
-<<<<<<< c48b2d93529bef051fecd272b36166daf98ba54f
->>>>>>> Fixes
-=======
-  width: 100%;
-  height: 100%;
-}
-.content-container.grey.slant.flat-bottom.slant:before,
-.content-container.grey.slant.flat-top.slant:before {
-  height: calc(100% - 85px);
-=======
->>>>>>> mobile work for overview page and header
 }
 .content-container.grey {
   background-color: #EFEFEF;
@@ -532,7 +458,6 @@
 .home-page .home-page-hero-unit .hero-unit h2 {
   color: #FFFFFF;
   margin: 10px auto;
->>>>>>> more feedback fixes, this time home page, and header logo
   width: 100%;
   max-width: 940px;
 }
@@ -753,7 +678,6 @@
 .info-page .iconlist-container .iconlist-item {
   margin: 45px 0;
 }
-<<<<<<< b65850a9dcb0103d8bed0be27d2c45c510aa2d08
 @media screen and (max-width: 767px) {
   .info-page .iconlist-container .iconlist-item img {
     margin-bottom: 20px;
@@ -773,8 +697,6 @@
     margin-right: 54px;
   }
 }
-=======
->>>>>>> fixes for flexbox and safari
 .info-page .iconlist-container .iconlist-item .content-container {
   width: 100%;
 }
@@ -922,9 +844,6 @@
 .fellows-page .fellow-block .fellow-info-container h2 {
   color: #804A80;
   margin: 0;
-}
-.fellows-page .fellow-block .fellow-info-container .fellow-info {
-  width: calc(100% - 235px);
 }
 .fellows-page .fellow-block .fellow-info-container .fellow-info {
   width: calc(100% - 235px);
