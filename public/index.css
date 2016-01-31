@@ -452,12 +452,21 @@
     height: calc(100% - 100px);
   }
 }
+<<<<<<< 0453eb5fece168ad4308de215765b6c54265bb55
 .home-page .home-page-hero-unit .hero-unit {
   background-color: #009DAA;
 }
 .home-page .home-page-hero-unit .hero-unit h2 {
   color: #FFFFFF;
   margin: 10px auto;
+=======
+.content-container.grey.slant:before {
+  content: '';
+  position: absolute;
+  background-color: #EFEFEF;
+  -webkit-transform: skewY(-5deg);
+          transform: skewY(-5deg);
+>>>>>>> Fixes
   width: 100%;
   max-width: 940px;
 }
@@ -860,6 +869,20 @@
 }
 .fellows-page .fellow-block .fellow-info-container .fellow-image-container img {
   margin-right: 35px;
+}
+.encrypt .hero-unit {
+  background-color: #5D5D5D;
+}
+.encrypt .encryptText {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+.encrypt .content-container .content {
+  padding-top: 0;
+}
+.encrypt .videoSection {
+  text-align: center;
+  background-color: #000;
 }
 html {
   background-color: #1E1E1E;
